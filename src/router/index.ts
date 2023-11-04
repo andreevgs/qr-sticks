@@ -8,12 +8,12 @@ const routes = [
     name: "default",
     children: [
       {
-        path: "",
+        path: "/qr-sticks",
         component: () => import("@/views/Main.vue"),
         name: "main",
       },
       {
-        path: "create",
+        path: "/qr-sticks/create",
         component: () => import("@/views/Create.vue"),
         name: "create",
       },
@@ -25,7 +25,7 @@ const routes = [
     name: "plain",
     children: [
       {
-        path: ":base64Data",
+        path: "/qr-sticks/:base64Data",
         component: () => import("@/views/Sticker.vue"),
         name: "sticker",
       },
