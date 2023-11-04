@@ -9,7 +9,6 @@ import { fileURLToPath, URL } from "node:url";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "qr-sticks",
   plugins: [
     vue({
       template: { transformAssetUrls },

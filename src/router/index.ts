@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
-    path: "/",
+    path: "/qr-sticks",
     component: () => import("@/layouts/default/Default.vue"),
     name: "default",
     children: [
@@ -20,7 +20,7 @@ const routes = [
     ],
   },
   {
-    path: "/stickers",
+    path: "/qr-sticks/stickers",
     component: () => import("@/layouts/plain/Plain.vue"),
     name: "plain",
     children: [
