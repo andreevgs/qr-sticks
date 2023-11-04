@@ -2,6 +2,7 @@
   "name": "qr-sticks",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://andreevgs.github.io/qr-sticks/",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
