@@ -12,6 +12,11 @@ const routes = [
     component: () => import("@/views/Create.vue"),
     name: "create",
   },
+  {
+    path: "/stickers/:base64Data",
+    component: () => import("@/views/Sticker.vue"),
+    name: "sticker",
+  },
 ];
 
 const router = createRouter({
