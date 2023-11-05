@@ -3,17 +3,17 @@ import { createRouter, createWebHashHistory } from "vue-router";
 
 const routes = [
   {
-    path: "/qr-sticks",
+    path: "/",
     component: () => import("@/views/Main.vue"),
     name: "main",
   },
   {
-    path: "/qr-sticks/create",
+    path: "/create",
     component: () => import("@/views/Create.vue"),
     name: "create",
   },
   {
-    path: "/qr-sticks/stickers/:base64Data",
+    path: "/stickers/:base64Data",
     component: () => import("@/views/Sticker.vue"),
     name: "sticker",
   },
