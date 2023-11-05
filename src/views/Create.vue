@@ -72,7 +72,7 @@ export default defineComponent({
       };
       serializedResult.value = `${
         location.hostname
-      }/#/stickers/${base64url_encode(JSON.stringify(createdData))}`;
+      }/qr-sticks/#/stickers/${base64url_encode(JSON.stringify(createdData))}`;
       console.log(serializedResult.value);
       isShowQRCode.value = true;
     };
